@@ -1,0 +1,22 @@
+public class Categoria
+{
+  public string int id  {get; set; }
+  public string nome_descricao {get; sert; }
+  public string descricao {get; set; }
+}
+public class agendamento
+{
+  public string int id {get; set; }
+  public string datatime data {get; sert; }
+  public string categoria categoria  {get; set; }
+}
+public class enderaco
+{
+  public string rua {get; set; }
+  public string numero {get; sert; }
+  public string bairro {get; set; }
+  public string cidade {get; sert; }
+  public string estado {get; set; }
+  public string CEP {get; sert; }
+ 
+}
